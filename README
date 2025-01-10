@@ -1,0 +1,38 @@
+Login/Signup MERN stack App (Authenitcation with JWT Token)
+
+
+For Backend: 
+
+Method: POST
+Body
+Response: User Already exist 409
+Server Error: 500
+Success 201
+
+
+Path:/Login
+Method: POST
+Body
+Response: Server Error 500
+Success 201
+User does not exist 401
+
+Server side validation using J liabary
+
+Middleware to intercept J token 
+header authorization: Jwt Token
+
+
+For Frontend:
+
+Routing: Private Routing
+Login Page:
+ Client side validation 
+ Login a integration than store JWT Token 
+ Signup Page:
+ Clint side validation
+ Signup API integration
+ Home Page:
+ Show logged in username
+ Show logout button 
+ 
