@@ -31,7 +31,7 @@ function Signup() {
         //     return handelError('Name , Email, Password are required!')
         // }
         try {
-            const url = "http://localhost:8001/auth/signup";
+            const url = "https://login-signup-mern-stack-omega.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
