@@ -24,6 +24,7 @@ const handleLogout = () => {
   // Redirect to login page
 };
 
+
   return (
     <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
             <div className="card shadow" style={{ width: "400px", borderRadius: "15px" }}>
